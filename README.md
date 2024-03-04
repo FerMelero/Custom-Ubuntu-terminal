@@ -10,7 +10,8 @@ The terminal displays an ASCII image and brief general information about the har
 
 ## Pre-Execution .
 
-1.- To run the script, we first have to have all the contents downloaded in a directory of the Linux operating system. (script.sh and .gif (_optional_))
+1.- To run the script, we first have to have all the contents downloaded in a directory of the Linux operating system.
+> script.sh and giphy.gif
 
 2.- Once downloaded and located in the directory where they are located, we execute the command `chmod 777 script.sh` to change the permissions of the file so that we can execute it.
 
