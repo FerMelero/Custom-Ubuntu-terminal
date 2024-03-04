@@ -1,4 +1,4 @@
-# Custom-Ubuntu-terminal
+<h1 align="center">Custom Ubuntu terminal</h4>
 
 ![image](https://github.com/Giordano-jpg/Custom-Ubuntu-terminal/assets/59683392/f4b82067-37f1-409c-9624-d098586da59a)
 
