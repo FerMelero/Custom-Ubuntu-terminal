@@ -44,7 +44,7 @@ To run the game: `nsnake`
 
 ### Position and colors of the ASCII image
 
-When running it, the ASCII image along with the information provided, if is not seen centered as it appears in the beginning image, this is due to the different screen dimensions that we may encounter and to solve this we simply have to add as many spaces in the rows that the image occupies, as we like. _(Between the lines 47 to 58)_.
+When running it, the ASCII image along with the information provided, if is not seen centered as it appears in the beginning image, this is due to the different screen dimensions that we may encounter and to solve this we simply have to add or delete as many spaces in the beginning the rows that the image occupies, as we like. _(Between the lines 47 to 58)_.
 
 To change the colors, change the third number of the string: "\e[38;5;**15m**", that appears at the beginning of each row of the image. _(Between the lines 47 to 58)_.
 This being a number in the ANSI palette of 256 colors.
