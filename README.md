@@ -8,7 +8,7 @@ This is a bash script that runs in a new window, simulating the operation of the
 The terminal displays an ASCII image and brief general information about the hardware and software on which it runs. Above the prompt the PID of the terminal is displayed.
 
 
-## Pre-Execution .
+## Pre-Execution
 
 1.- To run the script, we first have to have all the contents downloaded in a directory of the Linux operating system.
 > script_terminal.sh and giphy.gif
@@ -32,10 +32,10 @@ pip install ascii_animator
 ```
 > If there is an error during the installation, try: `pip install ascii_animator --break-system-packages`
 
-Usage example: `ascii-art-animator -f ./giphy.gif -a -m 3 -c 10`
-_(The dimensions of the screen can influence the correct display of the animation, change the number of columns: `-c 10`, and is also possible to change the number of repetitions: `-m 3`)_
+Usage example: `ascii-art-animator -f ./giphy.gif -a -m 3 -c 10` (This will be executed by typing "_exit_" in the terminal)
+> _The dimensions of the screen can influence the correct display of the animation, change the number of columns: `-c 10`, and is also possible to change the number of repetitions: `-m 3`_
 
-### Download nsnake (Game that runs in the terminal when you type "serpiente")
+### Download nsnake (Game that runs in the terminal when you type "_serpiente_")
 
 ```
 sudo apt-get install nsnake
@@ -44,7 +44,7 @@ To run the game: `nsnake`
 
 ### Position and colors of the ASCII image
 
-When running it, the ASCII image along with the information provided, if is not seen centered as it appears in the beginning image, this is due to the different screen dimensions that we may encounter and to solve this we simply have to add as many spaces in the rows that the image occupies, as we like. _(Between the lines 47 to 58)_
+When running it, the ASCII image along with the information provided, if is not seen centered as it appears in the beginning image, this is due to the different screen dimensions that we may encounter and to solve this we simply have to add as many spaces in the rows that the image occupies, as we like. _(Between the lines 47 to 58)_.
 
 To change the colors, change the third number of the string: "\e[38;5;**15m**", that appears at the beginning of each row of the image. _(Between the lines 47 to 58)_.
 This being a number in the ANSI palette of 256 colors.
@@ -54,6 +54,8 @@ This being a number in the ANSI palette of 256 colors.
 # Execution
 
 We exit superuser mode if we are and type `gnome-terminal --fullscreen -- ./script_terminal.sh`, this will run the script in a new GNOME terminal and it will open in full screen.
+
+To know more information about the commands that can be executed, type "_help_" in the terminal. Apart from those shown, it will execute any command that we write as if it were the normal Linux terminal.
 
 
 
